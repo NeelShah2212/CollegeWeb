@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login page 
+        </title>
+        <style>
+            .hd{
+                font-family:'Courier New', Courier, monospace;
+            }
+            .div{
+                color: white;
+                margin:auto;
+                text-align: center;
+                border-radius: 30px;
+                height: 400px;
+                width: 350px;
+                font-size: 18px;
+            }
+            .a{
+                padding-left: 26px;
+            }
+            .bt{
+                height: 24px;
+                width: 85px;           
+            }
+            .body{
+                background-image: url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
+                background-repeat: no-repeat;
+                background-size:100%;
+            }
+        </style>
+    </head>
+    <body class="body">
+        <form class="div">
+            <br><h1 class="hd"><b> Login </b></h1><br>
+            <label for="userid"><b>&nbsp;UserId</b></label>
+            <input type="text" placeholder="Enter id" name="userid" required>
+            <br><br>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="password" required>
+            <br><br>
+            <label>
+                <input type="checkbox" name="remember">
+                Remember me <a href="#" class="a">Forgot Password</a>
+            </label>
+            <br><br>
+            <button type="submit" class="bt">Login</button>    
+        </form>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+.body{
+    background-color: #4da1f0;
+}
+.hd{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div{
+    background-color: #4da1f0;
+    color: white;
+    text-align: center;
+}
+.div_1{
+    .photo1{
+        float: left;
+        border-radius: 30px;
+        border-top: 10px;
+    }
+    .text{
+        float: right;
+        font-size: 109%;
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+.div_2{
+    .photo2{
+        float: right;
+        border-radius: 30px;
+
+    }
+    .text2{
+        float: left;
+        font-size: 110%;
+        padding-left: 30px;
+        text-align: center;
+    }
+}    
+.div_3{
+    .photo3{
+        border-radius: 40px;
+        padding-top: 10px;
+    }
+    .text3{
+        float: right;
+        text-align: center;
+        font-size: 110%;
+        padding-right: 35px;
+        vertical-align: middle;
+    }
+}        
+.img{
+    float: left;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+.navbar{
+    background-color: white;
+    padding: 8px 8px;
+    margin: 13px 20px;
+    border-radius: 12px;
+}
+.a{
+    color: black;
+    text-decoration: none;
+    margin: 13px 20px;
+    padding: 3px 3px;
+}
+.a:hover{
+    background-color: rgb(241, 232, 232);
+    color: #0fbfbf;
+    border-radius: 5px;
+}
+.btn{
+    border: none;
+    background-color: white;
+    font-weight:bold;
+}
+.btn:hover{
+    background-color: rgb(241, 232, 232);
+    color: #0fbfbf;
+    border-radius: 5px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    border-style: none;
+}
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    text-decoration: none;
+    background-color: white;
+
+}  
+.dropdown:hover .dropdown-options {
+    display: block;
+    background-color: rgb(179, 230, 221);
+    color: #0fbfbf;
+}
+.a1{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    margin: 10px 15px;
+    border-radius: 20px;
+}
+.a1:hover{
+    background-color: lawngreen;
+}
